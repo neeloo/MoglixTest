@@ -29,4 +29,6 @@ public class ValidParentheses {
         }
         return maxLength;
     }
+    /// TC = O(n)
+    /// SC = O(n)
 }

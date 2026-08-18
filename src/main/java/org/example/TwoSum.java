@@ -8,7 +8,7 @@ public class TwoSum {
 
         int arr[]= {2,3,4,5,6};
         int target = 11;
-        TwoSumNumber(arr,target);
+        System.out.println( TwoSumNumber(arr,target));
     }
 
     private static int [] TwoSumNumber(int[] arr, int target) {

@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +9,8 @@ public class TwoSum {
 
         int arr[]= {2,3,4,5,6};
         int target = 11;
-        System.out.println( TwoSumNumber(arr,target));
+        int a[] = TwoSumNumber(arr,target);
+        System.out.println(Arrays.toString(a));
     }
 
     private static int [] TwoSumNumber(int[] arr, int target) {
